@@ -1,0 +1,22 @@
+
+@font-face {
+    font-family: Lato;
+    src: url('../fonts/Lato-Light.ttf');
+}
+
+.menu-container{
+    padding: 10px 120px;
+    background-color: #fff;
+    border-top: 1px solid #d3d3d3;
+    .menu{
+        padding: 10px;
+        width: 86%;
+        justify-content: space-evenly;
+        display: flex;    
+        font-family: Lato;
+        color: #041e50;
+        text-transform: uppercase;
+        font-size: 9pt;
+        font-weight: bold;
+    }
+}
